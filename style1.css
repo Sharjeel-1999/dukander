@@ -1,0 +1,54 @@
+body{
+    background: linear-gradient(aquamarine ,tomato );
+    font-family: sans-serif;
+}
+
+
+fieldset{
+    height: 500px;
+    width: 500px;
+    margin-left: 30%;
+    padding-top: 5%;
+    background: linear-gradient(tomato ,aquamarine );
+
+}
+fieldset legend h1{
+    font-size: 3rem;
+    font-family: sans-serif;
+
+}
+label{
+    font-size: 2rem;
+    margin-left: 10%;
+    font-family: sans-serif;
+}
+label input{
+    height: 50px;
+    width: 350px;
+    margin-left: 200px;
+    border-radius: 10px;
+}
+label input:focus{
+    background-color: wheat;
+    font-size: 1.6rem;
+    outline-color: aquamarine;
+}
+.btn{
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: tomato;
+    font-size: 1.2rem;
+    margin-left: 50%;
+    margin-top: 4%;
+}
+.btn1{
+    padding: 20px;
+    box-sizing: border-box;
+    border: 2px solid black;
+    border-radius: 10px;
+    background-color: tomato;
+    font-size: 1.2rem;
+    margin-top: 4%;
+}
